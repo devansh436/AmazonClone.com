@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: gray;
+    font-family: arial;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+#nav1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #131921;
+    height: 60px;
+}
+
+#nav1-deliver {
+    height: 40px;
+}
+
+#nav1-location-icon {
+    color: white;
+}
+
+#nav1-deliver-to {
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+    position: relative;
+    left: 20px;
+}
+
+#nav1-select-country {
+    background-color: #131921;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#nav1-all {
+    position: relative;
+    top: -0.5px;
+    color: rgba(0, 0, 0, 0.858);
+    background-color: rgb(220, 217, 217);
+    font-size: 13px;
+    height: 11.5px;
+    padding: 15px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#nav1-search {
+    display: flex;
+    height: 40px;
+}
+
+#nav1-searchArea {
+    position: relative; 
+    border-radius: 0;
+    border: none;
+    top: -3px;
+    padding: 11px 0;
+    padding-left: 5px;
+    height: 41px;
+    width: 700px;
+}
+
+#nav1-searchButton {
+    position: relative;
+    top: -0.5px;
+    left: -5px;
+    color:#131921;
+    font-size: 20px;
+    background-color: rgb(249, 188, 76);
+    border: none;
+    padding: 0 15px;
+    /* height: 105%; */
+    height: 41.5px;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px; 
+    border-width: 1px 0;
+}
+
+#nav1-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#nav1-country-flag {
+    color: gray;
+    width: auto;
+    position: relative;
+    top: 2  px;
+    height: 25px;
+}
+
+#nav1-country-name {
+    color: white;
+    background-color: #131921;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.nav1-bold1 {
+    color: white;
+    font-size: 12px;
+}
+
+.nav1-bold2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#nav1-cart-icon {
+    color: white;
+}
+
+#nav2 {
+    width: 100%;
+    background-color: rgb(35,47,62);
+}
+
+#nav2-display {
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    font-size: 14px;
+    justify-content: space-evenly;
+}
+
+#nav2-ham {
+    color: white;
+    font-weight: 700;
+}
+
+.nav2-elements {
+    color: white;
+
+}
+
+#logo {
+    position: relative;
+    top: 5px;
+    width: 90px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#main-poster-div {
+    top: 96.5px;
+    height: 300px;
+    width: 1500px;
+    overflow: hidden;
+    margin-bottom: -260px;
+}
+
+#main-img-img {
+    width: 100%;
+}
+
+#amazon-local {
+    display: flex;  
+    justify-content: center;
+    margin: 0 55px;
+    background-color: #f5f6f6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#amazon-local-link a {
+    font-size: 15px;
+    color: #007185;
+    padding-left: 5px;
+}
+
+#amazon-local-text {
+    font-size: 15px;
+    color: black;
+}
+
+#main-layout {
+    position: relative;
+    margin-bottom: 300px;
+    top: 270px;
+}
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.main-layout-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.main-layout-items h3 {
+    color: black;
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.see-more {
+    font-size: 10px;
+    padding: 10px 0 0 0;
+    color: #007185;
+    text-decoration: none;
+}
+
+.see-more:hover {
+    color: orange;
+}
+
+.img-container img {
+    width: 130px;
+    padding: 10px;
+}
+
+.img-container div {
+    color: black;
+    font-size: 13px;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+#full-img {
+    width: 300px;
+}
+
+#item-smartphones1 {
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+#item-smartphones1 img {
+    position: relative;
+    right: 40%;
+    height: 100%;
+}
+
+#item-smartphones1-div {
+    color: black;
+}
+
+#item-smartphones2 {
+    height: auto;
+    width:  90px;
+    margin: 0 5px;  
+}
+
+#item-smartphones2 div {
+    color: black;
+}
+
+#item-smartphones2 img {
+    position: relative;
+    width: 100%;
+}
+
+#back-to-top {
+    background-color: #39495c;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+#back-to-top a{
+    text-decoration: none;
+    color: white;
+}
+
+#back-to-top:hover {
+    background-color: #39495cd0;
+}
+
+#foot-main {
+    background-color: #232f3e;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#foot-main ul {
+    margin: 30px 0;
+}
+
+#foot-main li {
+    color: rgba(255,255,255,0.85);
+    list-style-type: none;
+    margin: 10px;
+}
+#foot-main h3 {
+    color: rgb(255,255,255);
+    list-style-type: none;
+}
